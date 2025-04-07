@@ -51,7 +51,7 @@ After the containers are up, you need to manually create a user to log into the 
 
 1. Access the backend container:
 ```bash
-docker exec -it backend bash
+docker exec -it {{container_backend_name}} bash
 ```
 
 2. Run the user creation script:
